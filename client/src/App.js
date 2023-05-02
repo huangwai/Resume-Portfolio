@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
 import Error from "./Pages/Error";
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
           {/* Authenication stuff here */}
           <Route path="*" element={<Error />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

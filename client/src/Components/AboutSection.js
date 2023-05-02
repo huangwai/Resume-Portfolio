@@ -1,9 +1,12 @@
-import React from 'react'
-
+import React from "react";
+import { Typography } from "@mui/material";
+import "../Assets/./Projectss/Projects";
 const AboutSection = () => {
   return (
-    <div>AboutSection</div>
-  )
-}
+    <div>
+      <Typography variant="h6" gutterBottom></Typography>
+    </div>
+  );
+};
 
-export default AboutSection
+export default AboutSection;
